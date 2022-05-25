@@ -1,0 +1,383 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sen:wght@400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+header nav {
+  font-family: "Poppins";
+}
+header nav .full-bg {
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, #001431), color-stop(50%, #f8f2e2));
+  background-image: linear-gradient(to right, #001431 50%, #f8f2e2 50%);
+}
+header nav .input-search {
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  font-size: 17px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  background-color: #001431;
+  padding-right: 40px;
+  color: black;
+}
+header nav .input-search::-webkit-input-placeholder {
+  color: black;
+  font-size: 18px;
+}
+header nav .input-search::-moz-placeholder {
+  color: black;
+  font-size: 18px;
+}
+header nav .input-search:-ms-input-placeholder {
+  color: black;
+  font-size: 18px;
+}
+header nav .input-search::-ms-input-placeholder {
+  color: black;
+  font-size: 18px;
+}
+header nav .input-search::placeholder {
+  color: black;
+  font-size: 18px;
+}
+header nav .btn-search {
+  width: 50px;
+  height: 50px;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 50%;
+  right: 0px;
+  color: #ffffff;
+  background-color: transparent;
+}
+header nav .search-box1 {
+  top: -4px;
+}
+header nav .btn-search:focus ~ .input-search {
+  width: 300px;
+  border-radius: 0px;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  -webkit-transition: all 500ms cubic-bezier(0, 0.11, 0.35, 2);
+  transition: all 500ms cubic-bezier(0, 0.11, 0.35, 2);
+}
+header nav .input-search:focus {
+  width: 300px;
+  background-color: transparent;
+  border-radius: 0px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  -webkit-transition: all 500ms cubic-bezier(0, 0.11, 0.35, 2);
+  transition: all 500ms cubic-bezier(0, 0.11, 0.35, 2);
+}
+header nav .details:hover {
+  outline: white 1px solid;
+  border-radius: 7px;
+}
+header nav .navbar-toggler-icon {
+  -webkit-filter: invert(99%) sepia(1%) saturate(5%) hue-rotate(355deg) brightness(102%) contrast(103%);
+          filter: invert(99%) sepia(1%) saturate(5%) hue-rotate(355deg) brightness(102%) contrast(103%);
+}
+header nav .poppins {
+  font-family: "Poppins";
+}
+header nav .fs-17 {
+  font-size: 17px;
+}
+header .sidebar {
+  list-style: none;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.law .full-bg {
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, #001431), color-stop(50%, #f8f2e2));
+  background-image: linear-gradient(to right, #001431 50%, #f8f2e2 50%);
+}
+.law .fs-63 {
+  font-size: 63px;
+  line-height: 69px;
+}
+.law .read_more {
+  border: none;
+  padding: 17px 40px;
+  color: white;
+  border-radius: 6px;
+  font-family: "Sen";
+  background-color: #001431;
+  background-color: white;
+}
+.law .read_more:hover {
+  background-color: #e73232;
+  color: white !important;
+}
+.law .dummy_text {
+  font-size: 18px;
+  font-family: "Sen";
+}
+.law .sen {
+  font-family: "Sen";
+}
+.law .circle {
+  border: 1px red solid;
+  border-radius: 50%;
+}
+
+.booking .booking_adjust {
+  top: -40px;
+}
+.booking .box-details {
+  min-width: 300px;
+  margin: 0;
+  -webkit-filter: drop-shadow(0px 12px 25.5px rgba(23, 23, 23, 0.13));
+          filter: drop-shadow(0px 12px 25.5px rgba(23, 23, 23, 0.13));
+  font-family: "Sen";
+  background-color: white;
+}
+.booking .box-details:hover {
+  background-color: #e73232;
+  color: white !important;
+}
+.booking .box-details:hover span {
+  color: white !important;
+}
+.booking .book {
+  margin: 0;
+}
+.booking .round-btn {
+  border-radius: 50%;
+  background-color: #001431;
+  color: white;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  padding: 12px 16px;
+}
+.booking .red {
+  color: red;
+}
+.booking .sen {
+  font-family: "Sen";
+}
+
+.services .skin-bg {
+  background-color: #f8f2e2;
+  -webkit-filter: drop-shadow(0px 12px 25.5px rgba(23, 23, 23, 0.13));
+          filter: drop-shadow(0px 12px 25.5px rgba(23, 23, 23, 0.13));
+}
+.services .fs-45 {
+  font-size: 45px;
+  line-height: 40px;
+}
+.services .read_more {
+  border: none;
+  padding: 17px 40px;
+  color: white;
+  border-radius: 6px;
+  font-family: "Sen";
+  background-color: #001431;
+  background-color: #001431;
+}
+.services .read_more:hover {
+  background-color: #e73232;
+}
+.services .sen {
+  font-family: "Sen";
+}
+.services .poppins {
+  font-family: "Poppins";
+}
+.services .round-btn {
+  border-radius: 50%;
+  background-color: #001431;
+  color: white;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  padding: 12px 16px;
+}
+.services img {
+  width: 75px;
+  height: 75px;
+}
+.services img:hover {
+  -webkit-filter: invert(20%) sepia(62%) saturate(5735%) hue-rotate(353deg) brightness(105%) contrast(80%);
+          filter: invert(20%) sepia(62%) saturate(5735%) hue-rotate(353deg) brightness(105%) contrast(80%);
+}
+.services p.title:hover {
+  color: #e73232;
+}
+
+.case_study .fs-45 {
+  font-size: 45px;
+  line-height: 40px;
+}
+.case_study .sen {
+  font-family: "Sen";
+}
+.case_study .card {
+  border: none;
+  outline: none;
+  -webkit-filter: drop-shadow(0px 12px 25.5px rgba(23, 23, 23, 0.13));
+          filter: drop-shadow(0px 12px 25.5px rgba(23, 23, 23, 0.13));
+}
+.case_study img {
+  min-height: 315px;
+}
+.case_study .read_more {
+  border: none;
+  padding: 17px 40px;
+  color: white;
+  border-radius: 6px;
+  font-family: "Sen";
+  background-color: #001431;
+  background-color: #001431;
+}
+.case_study .read_more:hover {
+  background-color: #e73232;
+}
+
+.about_us .full_bg {
+  background-color: #001431;
+}
+.about_us .fs-45 {
+  font-size: 45px;
+  line-height: 40px;
+}
+.about_us .sen {
+  font-family: "Sen";
+}
+.about_us .fs-17 {
+  font-size: 17px;
+}
+.about_us .read_more {
+  border: none;
+  padding: 17px 40px;
+  color: white;
+  border-radius: 6px;
+  font-family: "Sen";
+  background-color: #001431;
+  background-color: white;
+}
+.about_us .read_more:hover {
+  background-color: #e73232;
+  color: white !important;
+}
+
+.testimonal .fs-45 {
+  font-size: 45px;
+  line-height: 40px;
+}
+.testimonal .sen {
+  font-family: "Sen";
+}
+.testimonal .red {
+  color: red;
+}
+.testimonal .fs-38 {
+  font-size: 38px;
+  line-height: 28px;
+}
+.testimonal .fs-17 {
+  font-size: 17px;
+}
+.testimonal .round-btn {
+  border-radius: 50%;
+  background-color: #001431;
+  color: white;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  padding: 12px 16px;
+}
+
+.news .card {
+  background-color: #fefefd;
+  -webkit-filter: drop-shadow(0px 12px 25.5px rgba(23, 23, 23, 0.13));
+          filter: drop-shadow(0px 12px 25.5px rgba(23, 23, 23, 0.13));
+  border: none;
+  outline: none;
+}
+.news .fs-17 {
+  font-size: 17px;
+}
+.news .fs-45 {
+  font-size: 45px;
+  line-height: 40px;
+}
+.news .sen {
+  font-family: "Sen";
+}
+.news .fs-30 {
+  font-size: 30px;
+  line-height: 25px;
+}
+.news .round-btn {
+  border-radius: 50%;
+  background-color: #001431;
+  color: white;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  padding: 12px 16px;
+  background-color: #e73232;
+  padding: 24px 28px;
+}
+
+.consulation .fs-45 {
+  font-size: 45px;
+  line-height: 40px;
+}
+.consulation .sen {
+  font-family: "Sen";
+}
+.consulation .fs-17 {
+  font-size: 17px;
+}
+.consulation .border-0 {
+  border: none;
+  outline: none;
+}
+.consulation .read_more {
+  border: none;
+  padding: 17px 40px;
+  color: white;
+  border-radius: 6px;
+  font-family: "Sen";
+  background-color: #001431;
+}
+.consulation .read_more:hover {
+  background-color: #e73232;
+}
+
+footer .blue-bg {
+  background-color: #001431;
+}
+footer .sen {
+  font-family: "Sen";
+}
+footer .fs-17 {
+  font-size: 17px;
+}
+footer .round-btn {
+  border-radius: 50%;
+  background-color: #001431;
+  color: white;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  padding: 12px 16px;
+  background-color: #e73232;
+  padding: 24px 28px;
+}
+footer a {
+  color: transparent;
+}
+footer a:hover {
+  color: transparent;
+}
+footer .poppins {
+  font-family: "Poppins";
+}

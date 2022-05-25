@@ -1,0 +1,342 @@
+@import "mixin";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sen:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+//-----------------------header-------------------------------
+header{
+    nav{ font-family: "Poppins";
+        .full-bg{
+            @include full-bg;
+        }
+          .input-search{
+            height: 50px;
+            width: 50px;
+            padding: 10px;
+            @include fs-17;
+            @include border-outline;
+            border-radius: 25px;
+            transition: all .5s ease-in-out;
+            background-color:  rgb(0,20,49);
+            padding-right: 40px;
+            color:black;
+          }
+          .input-search::placeholder{
+            color:black;
+            font-size: 18px;
+          }
+          .btn-search{
+            width: 50px;
+            height: 50px;
+            @include border-outline;
+            @include fs-17;
+            cursor: pointer;
+            border-radius: 50%;
+            right: 0px;
+            color:#ffffff ;
+            @include transparent;
+          }
+          .search-box1{
+              top: -4px;
+          }
+          .btn-search:focus ~ .input-search{
+            width: 300px;
+            border-radius: 0px;
+            @include transparent;
+            border-bottom:1px solid rgba(255,255,255,.5);
+            transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+          }
+          .input-search:focus{
+            width: 300px;
+           @include transparent;
+           border-radius: 0px;
+            border-bottom:1px solid rgba(255,255,255,.5);
+            transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+          }
+        .details:hover{
+         outline: white 1px solid;
+         border-radius: 7px;
+        }
+        .navbar-toggler-icon {
+            filter: invert(99%) sepia(1%) saturate(5%) hue-rotate(355deg) brightness(102%) contrast(103%);
+        }
+        .poppins{
+            @include Poppins
+        }
+        .fs-17{
+            @include fs-17;
+        }
+        // #wrap {
+        //     input[type="text"] {
+        //         height: 45px;
+        //         @include fs-30;
+        //        @include border-outline;
+        //         padding-right: 60px;
+        //         width: 0px;
+        //         background: none;
+        //         z-index: 3;
+        //         transition: width .4s cubic-bezier(0.000, 0.795, 0.000, 1.000);
+        //         cursor: pointer;
+        //       }
+        //       input[type="text"]:focus:hover {
+        //         background-color:#f8f2e2;
+        //         @include border-outline;
+        //       }   
+        //       input[type="text"]:focus {
+        //         width: 490px;
+        //         z-index: 1;
+        //         cursor: text;
+        //         background-color:#f8f2e2;
+        //         @include border-outline;
+        //       }      
+        //   }
+    }
+    .sidebar {
+        list-style: none;
+        text-decoration: none;
+        @include fs-17;
+      }
+}
+//----------------------------------------------------banner-------------------------------------------------
+
+.law{
+    .full-bg{
+        @include full_bg;
+    }
+    .fs-63{
+        font-size: 63px;
+        line-height: 69px
+    }
+    .read_more{
+        @include button_read_more;
+        background-color: white;
+    }
+    .read_more:hover{
+        @include light-red; 
+        color: white !important;
+    }
+    .dummy_text{
+        @include dummy_text;
+    }
+    .sen{
+        @include sen;
+    }
+    .circle{
+        border: 1px red solid;
+        border-radius: 50%;
+    }
+   
+}
+//--------------------------------------------------------booking-----------------------------------
+.booking{
+    .booking_adjust{
+        top: -40px
+    }
+    .box-details{
+       @include box-details;
+        @include sen;
+        background-color: white;
+    }
+    .box-details:hover{
+        @include light-red ;
+        color: white !important;
+        span{
+            color: white !important;
+        }
+    }
+   
+    .book{
+        margin: 0;
+    }
+    .round-btn{
+        @include round-btn;
+    }
+    .red{
+        @include red;
+    }
+    .sen{
+        @include sen;
+    }
+}
+//---------------------------------------------------------services-------------------------------------------
+
+.services{
+    .skin-bg{
+        @include skin-bg;
+    }
+    .fs-45{
+        @include fs-45;
+    }
+    .read_more{
+        @include button_read_more;
+        @include blue-bg;
+    }
+    .read_more:hover{
+        @include light-red;
+    }
+    .sen{
+        @include sen;
+    }
+    .poppins{
+        @include Poppins
+    }
+    .round-btn{
+        @include round-btn;
+    }
+    img{
+        width: 75px;
+        height: 75px;
+    }
+    img:hover{
+        filter: invert(20%) sepia(62%) saturate(5735%) hue-rotate(353deg) brightness(105%) contrast(80%);
+    }
+   
+    p.title:hover{
+        color:#e73232;
+    }
+   
+  
+}
+//---------------------------------------case studies----------------------------------------------
+.case_study{
+
+    .fs-45{
+        @include fs-45;
+    }
+    .sen{
+        @include sen;
+    }
+    .card{
+        @include border-outline;
+        filter: drop-shadow(0px 12px 25.5px rgba(23,23,23,0.13));
+    }
+    img{
+        // height: 18rem;
+        // object-fit: cover;
+        min-height: 315px;
+    }
+    .read_more{
+        @include button_read_more;
+        background-color:rgb(0,20,49);;
+    }
+    .read_more:hover{
+        @include light-red;
+    }
+  
+}
+//-----------------------------------------------about us----------------------------------------------------
+.about_us{
+    .full_bg{
+        @include blue-bg;
+    }
+    .fs-45{
+        @include fs-45;
+    }
+    .sen{
+        @include sen;
+    }
+    .fs-17{
+        @include fs-17;
+    }
+    .read_more{
+        @include button_read_more;
+        // @include light-red ;
+        background-color: white;
+    }
+    .read_more:hover{
+        @include light-red;
+        color: white !important;
+    }
+}
+//------------------------------------------------testimonal---------------------------------------------------
+.testimonal{
+    .fs-45{
+        @include fs-45;
+    }
+    .sen{
+        @include sen;
+    }
+    .red{
+        @include red;
+    }
+    .fs-38{
+        font-size: 38px;
+        line-height: 28px;
+    }
+    .fs-17{
+        @include fs-17;
+    }
+    .round-btn{
+        @include round-btn;
+    }
+}
+    //--------------------------------------------------------news------------------------------------------------------------
+ .news{
+        .card{
+            background-color: #fefefd;
+            filter: drop-shadow(0px 12px 25.5px rgba(23,23,23,0.13));
+            @include border-outline;
+        }
+        .fs-17{
+            @include fs-17;
+        }
+        .fs-45{
+            @include fs-45;
+        }
+        .sen{
+            @include sen;
+        }
+        .fs-30{
+            @include fs-30;
+        }
+        .round-btn{
+            @include round-btn;
+            @include light-red;
+            padding: 24px 28px;
+        }
+    }
+    //-----------------------------------------------consulation------------------------------------------------------------------
+    .consulation{
+        .fs-45{
+            @include fs-45;
+        }
+        .sen{
+            @include sen;
+        }
+        .fs-17{
+            @include fs-17;
+        }
+        .border-0{
+            @include border-outline;
+        }
+        .read_more{
+            @include button_read_more;
+        }
+        .read_more:hover{
+            background-color: #e73232
+        }
+    }
+    //-----------------------------------------------------footer-----------------------------------------------------------------
+    footer{
+        .blue-bg{
+            @include blue-bg;
+        }
+        .sen{
+            @include sen;
+        }
+        .fs-17{
+            @include fs-17;
+        }
+        .round-btn{
+            @include round-btn;
+            @include light-red;
+            padding:24px 28px ;
+        }
+        a{
+            color: transparent;
+        }
+        a:hover{
+            color: transparent;
+        }
+        .poppins{
+            @include Poppins;
+        }
+    }

@@ -1,0 +1,73 @@
+// @mixin dark-blue {
+//     background-color: #001431;
+// }
+// @mixin skin_bg {
+// background-color: #f8f2e2;
+// }
+@mixin blue-bg {
+    background-color: #001431;
+}
+@mixin skin-bg {
+    background-color: #f8f2e2;
+    filter: drop-shadow(0px 12px 25.5px rgba(23,23,23,0.13));
+}
+@mixin full_bg {
+    background-image: linear-gradient(to right, rgb(0,20,49) 50%,  #f8f2e2 50%)
+}
+
+@mixin button_read_more {
+    border: none;
+    padding: 17px 40px;
+    color: white;
+    border-radius: 6px;
+    font-family: "Sen";
+    background-color: rgb(0,20,49);
+}
+@mixin dummy_text{
+    font-size: 18px;
+    font-family: "Sen";
+}
+@mixin Poppins {
+    font-family: "Poppins";
+}
+@mixin sen {
+    font-family: "Sen";
+}
+@mixin border-outline{
+    border: none;
+    outline: none;
+}
+@mixin red{
+    color: red;
+}
+@mixin round-btn{
+        border-radius: 50%;
+        background-color: rgb(0,20,49);
+        color: white;
+        font-size: 15px;
+        outline: none;
+        border: none;
+        padding: 12px 16px;
+}
+@mixin box-details {
+    min-width: 300px; 
+    margin: 0;
+    filter: drop-shadow(0px 12px 25.5px rgba(23,23,23,0.13));
+}
+@mixin fs-30{
+    font-size: 30px;
+    line-height: 25px;
+}
+@mixin fs-45 {
+    font-size: 45px;
+    line-height: 40px;
+}
+@mixin fs-17 {
+    font-size: 17px;
+}
+@mixin transparent {
+    background-color: transparent;
+}
+@mixin light-red {
+    background-color: #e73232;
+}

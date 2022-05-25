@@ -1,0 +1,137 @@
+@media screen and (min-width: 320px) and (max-width: 1650px) {
+  header nav .full-bg {
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(100%, #001431), color-stop(0%, #f8f2e2));
+    background-image: linear-gradient(to right, #001431 100%, #f8f2e2 0%);
+  }
+
+  .law .full-bg {
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(100%, #001431), color-stop(0%, #f8f2e2));
+    background-image: linear-gradient(to right, #001431 100%, #f8f2e2 0%);
+  }
+  .law .fs-63 {
+    font-size: 33px !important;
+    line-height: 39px;
+    margin: 10px;
+  }
+  .law .read_more {
+    padding: 10px 20px;
+    margin: 0 21% 5px;
+  }
+  .law button.previous_arrow, .law button.next_arrow {
+    font-size: 15px;
+    line-height: 15px;
+  }
+  .law button.previous_arrow {
+    padding: 15px;
+    top: 82% !important;
+  }
+  .law button.next_arrow {
+    padding: 15px;
+    top: 70% !important;
+  }
+
+  .booking .booking_adjust {
+    top: 0 !important;
+  }
+  .booking .box-details {
+    margin-top: 30px;
+  }
+
+  .services button.previous_arrow_services {
+    left: 0px !important;
+  }
+  .services button.next_arrow_services {
+    right: 0px !important;
+  }
+  .services .dummy_text {
+    width: auto !important;
+  }
+  .services .service_title {
+    margin-bottom: 0 !important;
+    font-size: 35px !important;
+    line-height: normal;
+  }
+
+  .case_study .title {
+    margin-bottom: 0 !important;
+    font-size: 35px !important;
+  }
+  .case_study .margin_adjust {
+    margin: 0 !important;
+  }
+
+  .about_us .read_more {
+    margin-left: 58px !important;
+  }
+
+  .testimonal button.previous_arrow_testimonal {
+    top: 97% !important;
+    left: 100px !important;
+  }
+  .testimonal button.next_arrow_testimonal {
+    top: 97% !important;
+    right: 100px;
+  }
+  .testimonal .img_adjust {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .testimonal .title {
+    font-size: 35px !important;
+  }
+
+  .news button.next_arrow_news {
+    top: -24px;
+  }
+  .news button.previous_arrow_news {
+    top: 32px;
+  }
+  .news .title_adjust {
+    margin-top: 100px !important;
+    margin-bottom: 0 !important;
+    font-size: 35px !important;
+  }
+  .news .heading_adjust {
+    margin-top: 0px !important;
+  }
+  .news .round-btn {
+    padding: 9px 14px !important;
+  }
+
+  .consulation input.w-50 {
+    width: 100% !important;
+  }
+  .consulation .fs-45 {
+    font-size: 35px;
+    line-height: normal;
+    margin-bottom: 0 !important;
+  }
+
+  footer .mob-adjust {
+    margin: 3px !important;
+  }
+  footer .round-btn {
+    border-radius: 50%;
+    background-color: #001431;
+    color: white;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    padding: 12px 16px;
+    background-color: #e73232;
+    margin: 0 13px !important;
+  }
+}
+@media screen and (min-width: 1650px) {
+  header nav .navbar-nav {
+    font-size: 16px !important;
+    margin: 0 !important;
+  }
+  header nav .search-box {
+    display: none;
+  }
+}
